@@ -43,31 +43,23 @@ const footerSupport = [
 
 const footerCompany = [
     {
-        itemText:"About",
-        itemLink:"/about"
+        itemText:"About Us",
+        itemLink:"#about-us"
     },
     {
-        itemText:"Blog",
-        itemLink:"#"
+        itemText:"Services",
+        itemLink:"#services"
     },
     {
-        itemText:"Jobs",
-        itemLink:"#"
+        itemText:"Why Us",
+        itemLink:"#why-us"
     },
     {
-        itemText:"Parteners",
-        itemLink:"#"
+        itemText:"Our People",
+        itemLink:"#our-people"
     },
-    {
-        itemText:"Jobs",
-        itemLink:"#"
-    }
 ]
 const footerLegal = [
-    {
-        itemText:"Claim",
-        itemLink:"/#"
-    },
     {
         itemText:"Privacy",
         itemLink:"#"
@@ -115,17 +107,15 @@ const footerLegal = [
                 <div class="h-full">
                     <a href="#" class="relative flex items-center gap-3">
                         <div class="relative w-7 h-7 overflow-auto flex rounded-xl">
-                            <span class="absolute w-4 h-4 -top-1 -right-1 bg-green-500 rounded-md rotate-45"></span>
-                            <span class="absolute w-4 h-4 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"></span>
-                            <span class="absolute w-4 h-4 -bottom-1 -left-1 bg-primary rounded-md rotate-45"></span>
-                            <span class="absolute w-2 h-2 rounded-full bg-heading-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                            <img src="/logos/integriguardlogo02.jpg" alt="Integriguard Icon">
                         </div>
+
                         <div class="inline-flex text-lg font-semibold text-heading-1">
-                            AgenceX
+                            IntegriGuard
                         </div>
                     </a>
                     <Paragraph className={"mt-8"}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, maiores nam doloribus id magni
+                        "Honoring Commitments with Integrity."
                     </Paragraph>
                 </div>
 
@@ -163,13 +153,14 @@ const footerLegal = [
 
             <GroupFooterNav>
                 <FooterNav title={"Company"} navItems={footerCompany}/>
-                <FooterNav title={"Solutions"} navItems={footerNav1}/>
-            </GroupFooterNav>
-
-            <GroupFooterNav>
-                <FooterNav title={"Support"} navItems={footerSupport}/>
+                <!-- <FooterNav title={"Solutions"} navItems={footerNav1}/> -->
                 <FooterNav title={"Ressources"} navItems={footerLegal}/>
             </GroupFooterNav>
+
+            <!-- <GroupFooterNav>
+                <FooterNav title={"Support"} navItems={footerSupport}/>
+                <FooterNav title={"Ressources"} navItems={footerLegal}/>
+            </GroupFooterNav> -->
 
         </div>
     </Container>
@@ -177,10 +168,7 @@ const footerLegal = [
         <Container>
             <div class="flex justify-between items-center gap-6 md:text-lg text-heading-3">
                 <div>
-                    &copy; <span id="year"></span> AgenceX. All right reserved
-                </div>
-                <div>
-                    Proudly made by <a href="https://github.com/johnkat-mj" target="_blank" class="font-semibold">John Kat</a>
+                    &copy; <span id="year"></span> IntegriGuard. All right reserved
                 </div>
             </div>
         </Container>
