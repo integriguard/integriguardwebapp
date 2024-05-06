@@ -10,31 +10,31 @@ const services = [
     {
         title: "PDPM Missed Oppurtunities",
         description: "HIPPS Coding, MD Query, Primary Dx, BIMS, PHQ9, and GG",
-        icon: `<img src="/images/pdpm.jpg" alt="PDPM Image" class="w-30 h-20"> 
+        icon: `<img src="./images/pdpm.jpg" alt="PDPM Image" class="w-30 h-20"> 
         </img>`,
     },
     {
         title: "Quality Measures Trigger Alerts",
         description: "5 Star Rating, SNF QRP",
-        icon: `<img src="/images/5star.jpg" alt="5Star Image" class="w-30 h-20"> 
+        icon: `<img src="./images/5star.jpg" alt="5Star Image" class="w-30 h-20"> 
         </img>`,
     },
     {
         title: "Regulatory Compliance",
         description: "MDS Scheduling, MDS Data Entry, MDS Due Alert, CAAs & Care Planning and MDS Coding Accurary Audit",
-        icon: `<img src="/images/mds3.jpg" alt="MDS3 Image" class="w-30 h-20"> 
+        icon: `<img src="./images/mds3.jpg" alt="MDS3 Image" class="w-30 h-20"> 
         </img>`,
     },
     {
         title: "PBJ Staffing Accuracy",
         description: "Missing Assessments and Discharge MDS Completion",
-        icon: `<img src="/images/PBJ.png" alt="PBJ Image" class="w-30 h-20"> 
+        icon: `<img src="./images/PBJ.png" alt="PBJ Image" class="w-30 h-20"> 
         </img>`,
     },
     {
         title: "Other Services",
         description: "ICD10 Assistance, Skilled Documentation Review ADR and Audit & Denial Management",
-        icon: `<img src="/images/audit-and-denial.jpg" alt="Audit Image" class="w-30 h-20"> 
+        icon: `<img src="./images/audit-and-denial.jpg" alt="Audit Image" class="w-30 h-20"> 
         </img>`,
     },
 ];
