@@ -6,53 +6,52 @@ import Title from "../shared/Title.astro";
 ---
 
 <section id="why-us">
-    <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12">
-        
-        <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
-            <!-- <div class="text-center max-w-3xl mx-auto space-y-4"> -->
-                <Title>
-                    Why Us
-                </Title>
-            <!-- </div> -->
-            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
-                <li class="text-lg font-bold">
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Expertise
-                </li>
-
-                <Paragraph className="mt-2">
-                    RN staff with years of expertise in medical record review to ensure precision, excellence and reliability. They are trained and manage by an AAPACN Master Teacher (American Association of Post-Acute Care).
-                </Paragraph>
-    
-                <li class="text-lg font-bold">
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Quality
-                </li>
-
-                <Paragraph className="mt-2">
-                    Our decicated team is committed to meticulous attention to detail, ensuring each project is executed flawlessly, meeting client specifications with precision.
-                </Paragraph>
-
-                <li class="text-lg font-bold" >
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Customer-Centric Focus
-                </li>
-
-                <Paragraph className="mt-2">
-                    By prioritizing client satisfaction, we tailor services to meet individual needs or focus.
-                </Paragraph>
-
-            </ul>
-        </div>
-
-       
-        <div class="max-w-md mx-auto midmd:max-w-none lg:mx-0  lg:pr-10 xl:pr-2 flex-1 flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto">
-            <div class="w-full h-80 sm:h-96 midmd:h-full relative">
-                <div class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-to-br from-primary to-orange-400 blur-3xl opacity-50"></div>
-                <div class="absolute  p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-to-br from-primary to-orange-400 rounded-full blur-3xl opacity-60"></div>
-                
-                <span class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-tr from-primary to-green-400 opacity-40 blur-2xl left-0 bottom-0"></span>
-                <img src={"./images/Quality-System.jpg"} alt="banner image" 
-                width="1240" height="1385"
-                class=" w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full" />
+        <Container >
+        <div class="text-center">
+            <Title>Why Us</Title>
+        </div>                     
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
+            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl relative overflow-hidden">
+                <div class="rounded-xl p-3 text-heading-1 w-max relative mx-auto">                       
+                    <img src="./images/Expertise3.png" alt="5Star Image"  class="w-full h-auto min-w-0"> </img>                        
+                </div>
+                <div class="mt-6 space-y-1 flex flex-col items-center">
+                    <h1 class="text-center text-lg md:text-xl font-bold text-heading-2 content-center">
+                        Expertise
+                    </h1>
+                    <Paragraph className="text-center mt-2">
+                        RN staff with years of expertise in medical record review to ensure precision, excellence and reliability. They are trained and manage by an AAPACN Master Teacher (American Association of Post-Acute Care).
+                    </Paragraph>    
+                </div>                         
             </div>
+
+            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl relative overflow-hidden">
+                <div class="rounded-xl p-3 text-heading-1 w-max relative mx-auto">                       
+                    <img src="./images/Quality.png" alt="5Star Image"  class="w-full h-auto min-w-0"> </img>                        
+                </div>
+                <div class="mt-6 space-y-1 flex flex-col items-center">
+                    <h1 class="text-center text-lg md:text-xl font-bold text-heading-2 content-center">
+                        Quality
+                    </h1>
+                    <Paragraph className="text-center mt-2">
+                        Our decicated team is committed to meticulous attention to detail, ensuring each project is executed flawlessly, meeting client specifications with precision.
+                    </Paragraph>    
+                </div>                         
+            </div>            
+
+            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl relative overflow-hidden">
+                <div class="rounded-xl p-3 text-heading-1 w-max relative mx-auto">                       
+                    <img src="./images/CustomerCentric.png" alt="5Star Image"  class="w-full h-auto min-w-0"> </img>                        
+                </div>
+                <div class="mt-6 space-y-1 flex flex-col items-center">
+                    <h1 class="text-center text-lg md:text-xl font-bold text-heading-2 content-center">
+                        Customer-Centric Focus 
+                    </h1>
+                    <Paragraph className="text-center mt-2">
+                        By prioritizing client satisfaction, we tailor services to meet individual needs or focus.
+                    </Paragraph>    
+                </div>                         
+            </div>             
         </div>
     </Container>
 </section>
