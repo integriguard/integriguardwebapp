@@ -1,0 +1,29 @@
+---
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+import Carousel from "../elements/CustomerCarousel.jsx";
+---
+
+<section>
+    <Container>
+        <div class="text-center max-w-3xl mx-auto lg:block hidden">
+            <Title>
+                What Our Customers Say About Us
+            </Title>
+        </div>
+        <div class="text-center max-w-3xl mx-auto lg:hidden">
+          <Title>
+              What Our Customers
+          </Title>
+          <Title>
+            Say About Us
+        </Title>
+      </div> 
+    
+        <div class="flex justify-center flex-wrap gap-4">                                      
+            <Carousel client:load/>
+        </div>
+          
+
+    </Container>
+</section>
