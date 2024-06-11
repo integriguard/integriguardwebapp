@@ -77,7 +77,7 @@ function Carousel() {
       <div className="carousel relative flex justify-center items-center">
         {slides.map((slide, index) => (
           // <div class="md:shrink-0">
-             <img key={index} src={slide} alt={`Slide ${index + 1}`} className={`carousel-image min-h-[25vh] w-full h-auto object-cover ${index === currentSlide ? '' : 'hidden'}`} />
+             <img key={index} src={slide} alt={`Slide ${index + 1}`} className={`carousel-image rounded-3xl min-h-[25vh] w-full h-auto object-cover ${index === currentSlide ? '' : 'hidden'}`} />
           // </div>
         ))}
       </div>

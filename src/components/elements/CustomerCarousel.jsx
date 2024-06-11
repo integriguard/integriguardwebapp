@@ -73,14 +73,15 @@ function Carousel() {
   return (
     <div className="carousel-container">
       <div className="mt-10 carousel relative flex justify-center items-center">
-        {currentSlide % 2 === 0 && (
+      <div class="grid grid-cols-1 gap-3">
+      {currentSlide % 2 === 0 && (
           <div className="slide-content flex flex-col lg:flex-row items-center">
             <img
               src={slides[currentSlide].image}
               alt={`Slide ${currentSlide + 1}`}
-              className="carousel-image w-full lg:w-[50%] h-[30vh] min-h-[25vh] max-w-3xl"
+              className="carousel-image w-full sm:w-[40vh]] sm:h-[40vh] "
             />
-            <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden text-center">
               <div className="p-4">
                 <p className="text-gray-700 dark:text-gray-300 text-lg font-semibold">
                   {slides[currentSlide].paragraph[0]}
@@ -101,7 +102,7 @@ function Carousel() {
         {currentSlide % 2 !== 0 && (
           <div className="slide-content flex flex-box">
             <div className="slide-content flex flex-col lg:flex-row items-center">
-              <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+              <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden text-center">
                 <div className="p-4">
                   <p className="text-gray-700 dark:text-gray-300 text-lg font-semibold">
                     {slides[currentSlide].paragraph[0]}
@@ -119,11 +120,14 @@ function Carousel() {
               <img
                 src={slides[currentSlide].image}
                 alt={`Slide ${currentSlide + 1}`}
-                className="carousel-image w-full lg:w-[50%] h-[30vh] min-h-[25vh] max-w-3xl"                
+                className="carousel-image w-full sm:w-[40vh] sm:h-[40vh]"
               />
             </div>
           </div>
         )}
+
+      </div>
+
 
         <div className="carousel-controls absolute bottom-2 left-0 right-0 flex justify-between">
           <button
