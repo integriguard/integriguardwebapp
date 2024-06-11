@@ -13,7 +13,7 @@ function Carousel() {
 
   const slides = [
     {
-      image: "./images/Customer1.png",
+      image: "./images/Customer1.webp",
       paragraph: [
         "Quick response time, great communication to Case Managers, very happy with the Admission process!",
         "Mallory Fick",
@@ -21,7 +21,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer2.png",
+      image: "./images/Customer2.webp",
       paragraph: [
         "You are the Best! Thank you for all your work today!",
         "Rachel Guglielmo",
@@ -29,7 +29,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer3.png",
+      image: "./images/Customer3.webp",
       paragraph: [
         "I heard great things about the work that Offshore team is doing!!! Thank you for doing that..",
         "Catherine Shea Ellis",
@@ -37,7 +37,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer4.png",
+      image: "./images/Customer4.webp",
       paragraph: [
         "You are such an important part to this company. Our company had gone so much changes lately but the most positive one, is all of you. Thank you for everything you do everyday!",
         "Erika Nichols",
@@ -45,7 +45,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer5.png",
+      image: "./images/Customer5.webp",
       paragraph: [
         "Thank you, Offshore Accounts Payable Team! You are exceeding my every expectation",
         "Rylee TenBrock",
@@ -53,7 +53,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer6.png",
+      image: "./images/Customer6.webp",
       paragraph: [
         "You are all doing so great! Keep up the good job!",
         "Margeaux Donovan",
@@ -61,7 +61,7 @@ function Carousel() {
       ],
     },
     {
-      image: "./images/Customer7.png",
+      image: "./images/Customer7.webp",
       paragraph: [
         "I would like to thank you for being such a great additions to the Accounts Payable Team!",
         "Rebecca Wallace",
