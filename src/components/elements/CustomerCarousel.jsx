@@ -119,7 +119,7 @@ function Carousel() {
               <img
                 src={slides[currentSlide].image}
                 alt={`Slide ${currentSlide + 1}`}
-                className="carousel-image w-full h-[30vh] min-h-[25vh] max-w-3xl"
+                className="carousel-image w-full lg:w-[50%] h-[30vh] min-h-[25vh] max-w-3xl"                
               />
             </div>
           </div>
