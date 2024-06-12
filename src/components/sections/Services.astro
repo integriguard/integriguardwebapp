@@ -32,75 +32,14 @@ type ServicesProps = {
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
 
             <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">
-                <div class="rounded-xl p-1 text-heading-1 w-max relative mx-auto">
-                    <img src="./images/RevenueCycle.webp" alt="Back Office Image"  class="w-full h-auto min-w-0"> </img>
-                </div>
-                <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Revenue Cycle
-                    </h2>
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Management
-                    </h2>
-                </div>
-                <div class="mt-6 flex flex-col items-center">
-                    <Revenuecycle client:load/>                
-                </div>
-                
-                <span class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"></span>
-            </div>
-
-            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">
-                <div class="rounded-xl p-1 text-heading-1 w-max relative mx-auto">
-                    <img src="./images/MultiChannel.webp" alt="Back Office Image"  class="w-full h-auto min-w-0"> </img>
-                </div>
-                <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Multichannel Customer
-                    </h2>
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Engagement
-                    </h2>
-
-                </div>
-                <div class="mt-6 flex flex-col items-center">
-                    <MultichannelCustomer client:load/>                
-                </div>
-                
-                <span class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"></span>
-            </div>
-
-
-            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">
-                <div class="rounded-xl p-1 text-heading-1 w-max relative mx-auto">
-                    <img src="./images/BackOffice.webp" alt="Back Office Image"  class="w-full h-auto min-w-0"> </img>                        
-                </div>
-                <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Back-Office Customer
-                    </h2>
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
-                        Service
-                    </h2>
-
-                </div>
-                <div class="mt-6 flex flex-col items-center">
-                    <BackOfficeCustomer client:load/> 
-                </div>
-                
-                <span class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"></span>
-            </div>
-
-
-            <div class="flex flex-col items-center p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">
                 <div class="rounded-xl p-1 text-heading-1 w-max relative mx-auto">                        
                     <img src="./images/Medicare.webp" alt="Medicare Image"  class="w-full h-auto min-w-0"> </img>                        
                 </div>
                 <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center text-black dark:text-white">
                         Medicare & Managed Care
                     </h2>
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         Compliance Monitoring
                     </h2>
 
@@ -117,7 +56,7 @@ type ServicesProps = {
                     <img src="./images/Pdpm3.webp" alt="Pdpm3 Image"  class="w-full h-auto min-w-0"> </img>                        
                 </div>
                 <div class="mt-6 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         PDPM Management
                     </h2>
                 </div>
@@ -133,7 +72,7 @@ type ServicesProps = {
                     <img src="./images/QualityMeasures.webp" alt="Quality Rating Image"  class="w-full h-auto min-w-0"> </img>                        
                 </div>
                 <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         Quality Measures
                     </h2>
                 </div>
@@ -150,7 +89,7 @@ type ServicesProps = {
                     <img src="./images/mds3.webp" alt="MDS3 Image"  class="w-full h-auto min-w-0"> </img>
                 </div>
                 <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         Regulatory Compliance
                     </h2>
                 </div>
@@ -167,7 +106,7 @@ type ServicesProps = {
                     <img src="./images/PBJ2.webp" alt="PBJ2 Image"  class="w-full h-auto min-w-0"> </img>
                 </div>
                 <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         Payroll Based Journal
                     </h2>
                 </div>
@@ -184,7 +123,7 @@ type ServicesProps = {
                     <img src="./images/OtherServices.webp" alt="Other Services Image"  class="w-full h-auto min-w-0"> </img>
                 </div>
                 <div class="mt-6 space-y-1 flex flex-col items-center">
-                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center">
+                    <h2 class="text-lg md:text-xl font-semibold text-heading-2 content-center  text-black dark:text-white">
                         Other Services
                     </h2>
                 </div>

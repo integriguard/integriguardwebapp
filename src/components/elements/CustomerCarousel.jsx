@@ -73,7 +73,7 @@ function Carousel() {
   return (
     <div className="carousel-container">
       <div className="mt-10 carousel relative flex justify-center items-center">
-      <div class="grid grid-cols-1 gap-3">
+      <div className="grid grid-cols-1 gap-3">
       {currentSlide % 2 === 0 && (
           <div className="slide-content flex flex-col lg:flex-row items-center">
             <img
@@ -132,13 +132,13 @@ function Carousel() {
         <div className="carousel-controls absolute bottom-2 left-0 right-0 flex justify-between">
           <button
             onClick={goToPreviousSlide}
-            className="mx-2 cursor-pointer rounded-full px-2 py-1 text-white bg-primary sm:px-3 sm:py-1.5 lg:px-4 lg:py-2"
+            className="mx-2 cursor-pointer rounded-full px-2 py-1 text-white bg-primary sm:px-3 sm:py-1.5 lg:px-4 lg:py-2 bg-gradient-to-r from-yellow-400 via-red-500 to-yellow-400 font-semibold shadow-md hover:bg-gradient-to-r hover:from-yellow-500 hover:via-red-600 hover:to-yellow-500 transition-colors duration-300"
           >
             &lt;{" "}
           </button>
           <button
             onClick={goToNextSlide}
-            className="mx-2 cursor-pointer rounded-full px-2 py-1 text-white bg-primary sm:px-3 sm:py-1.5 lg:px-4 lg:py-2"
+            className="mx-2 cursor-pointer rounded-full px-2 py-1 text-white bg-primary sm:px-3 sm:py-1.5 lg:px-4 lg:py-2 bg-gradient-to-r from-yellow-400 via-red-500 to-yellow-400 font-semibold shadow-md hover:bg-gradient-to-r hover:from-yellow-500 hover:via-red-600 hover:to-yellow-500 transition-colors duration-300"
           >
             {" "}
             &gt;

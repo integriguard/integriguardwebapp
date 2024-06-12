@@ -13,8 +13,8 @@ const { title, description } = Astro.props
     <!-- <div class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative">
         <slot name="icon"/>
     </div> -->
-    <h2 class="text-center md:text-xl font-bold text-heading-2 mt-4 mb-4"> {title} </h2>
-    <Paragraph className='text-center'>
+    <h2 class="text-center md:text-xl font-bold text-heading-2 mt-4 mb-4 text-black dark:text-white"> {title} </h2>
+    <Paragraph className='text-center text-gray-800 dark:text-white'>
         {description}
     </Paragraph>
 </div>

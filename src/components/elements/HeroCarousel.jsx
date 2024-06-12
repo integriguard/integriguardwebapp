@@ -56,7 +56,7 @@ function Carousel() {
   };
 
   const slides = [
-    './images/HeaderCarouselPic0.webp',
+    // './images/HeaderCarouselPic0.webp',
     './images/HeaderCarouselPic1.webp',
     './images/HeaderCarouselPic2.webp',
     './images/HeaderCarouselPic3.webp',
@@ -66,7 +66,7 @@ function Carousel() {
     useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % slides.length);
-    }, 5000); // Adjust the interval duration as needed (in milliseconds)
+    }, 4000); // Adjust the interval duration as needed (in milliseconds)
 
     return () => clearInterval(interval);
   }, [currentSlide, slides.length]);

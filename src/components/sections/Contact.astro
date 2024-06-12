@@ -15,9 +15,9 @@ import Title from "../shared/Title.astro";
         </div>
 <!-- <div class="flex items-center min-h-screen"> -->
     <div class="container mx-auto">
-      <div class="max-w-md mx-auto my-5 bg-gray-800 p-5 rounded-md shadow-sm">
+      <div class="max-w-md mx-auto my-5  p-5 rounded-md shadow-sm">
         <div class="text-center">
-          <p class="text-gray-400 dark:text-gray-400">
+          <p class="text-white">
             Fill up the form below to send us a message.
           </p>
         </div>
@@ -28,28 +28,28 @@ import Title from "../shared/Title.astro";
             <input type="checkbox" name="botcheck" id="" style="display: none;" />
   
             <div class="mb-6">
-              <label for="name" class="block mb-2 text-sm text-gray-400">Full Name</label>
+              <label for="name" class="block mb-2 text-sm text-white">Full Name</label>
               <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
             </div>
             <div class="mb-6">
-              <label for="email" class="block mb-2 text-sm text-gray-400">Email Address</label>
+              <label for="email" class="block mb-2 text-sm text-white">Email Address</label>
               <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
             </div>
             <div class="mb-6">
-              <label for="phone" class="block mb-2 text-sm text-gray-400">Phone Number</label>
+              <label for="phone" class="block mb-2 text-sm text-white">Phone Number</label>
               <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
             </div>
             <div class="mb-6">
-              <label for="message" class="block mb-2 text-sm text-gray-400">Your Message</label>
+              <label for="message" class="block mb-2 text-sm text-white">Your Message</label>
   
               <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" required></textarea>
             </div>
             <div class="mb-6">
-                <button type="submit" class="w-full bg-primary inline-block text-white no-underline hover:text-indigo-100 py-4 px-4 rounded-sm focus:outline-none"> 
+                <button type="submit" class="w-full inline-block text-white no-underline hover:text-indigo-100 py-4 px-4 rounded-sm focus:outline-none bg-gradient-to-r from-yellow-400 via-red-500 to-yellow-400 font-semibold shadow-md hover:bg-gradient-to-r hover:from-yellow-500 hover:via-red-600 hover:to-yellow-500 transition-colors duration-300"> 
                 Send Message
               </button>
             </div>
-            <p class="text-base text-center text-gray-400" id="result"></p>
+            <p class="text-base text-center text-white" id="result"></p>
             <!-- Custom URL -->
             <input type="hidden" name="redirect" value="https://integriguard.github.io/integriguardwebapp/success">
           </form>
