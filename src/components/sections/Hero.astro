@@ -7,9 +7,18 @@ import Title from "../shared/Title.astro";
 import Carousel from "../elements/HeroCarousel.jsx";
 ---
 
-<section class="relative pt-24 lg:pt-36">
+<section class="relative pt-24">
     <Container className={"flex flex-col lg:flex-row gap-10 lg:gap-12"}>
-        <div class="text-center max-w-3xl mx-auto space-y-4">
+        <div class="text-center mx-auto space-y-4">
+            
+            <div class="mx-auto w-2/3">
+                <img src={"./images/Integriguard02.webp"} alt="banner image" class="rounded-xl min-h-[18vh] lg:block hidden"/>
+            </div> 
+
+            <div class="mx-auto w-2/3">
+                <img src={"./images/Integriguard02.webp"} alt="banner image" class="lg:hidden"/>
+            </div> 
+
             <Title>
                 Healthcare Outsourcing Services
             </Title>
@@ -18,11 +27,18 @@ import Carousel from "../elements/HeroCarousel.jsx";
                     By integrating your operations to us, we can help your company keep up with growing responsibilities and tasks, reduce your labor costs, improve team efficiency, focus on what's important, increase productivity and focus on delivering quality care to your residents.
                 </Paragraph>    
             </div>
-            <div class="py-2">
+            <div class="flex flex-col lg:flex-row py-2">
+                <div class="mx-auto my-7 px-2 lg:block hidden">
+                    <img src={"./images/Integriguardlogo02.webp"} alt="banner image" class="bg-white h-[100%]" />
+                </div> 
                 <Carousel client:load/>
+                <div class="mx-auto my-7 px-2 lg:block hidden">
+                    <img src={"./images/Integriguardlogo02.webp"} alt="banner image" class="bg-white  h-[100%]" />
+                </div> 
             </div>
             
         </div>
+        
     </Container>
     
 
