@@ -7,14 +7,15 @@ export interface Props{
 }
 const { title, description } = Astro.props
 ---
-<div class="p-5 sm:p-6 lg:p-8 rounded-3xl relative overflow-hidden">
-    <div class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">    
+<div class="py-2 relative overflow-hidden">
+    <!-- <div class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">     -->
+        <!-- <div class="p-5 sm:p-6 lg:p-8 relative overflow-hidden">     -->
     <!-- <div class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">     -->
     <!-- <div class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative">
         <slot name="icon"/>
     </div> -->
-    <h2 class="text-center md:text-xl font-bold text-heading-2 mt-4 mb-4 text-black dark:text-white"> {title} </h2>
-    <Paragraph className='text-center text-gray-800 dark:text-white'>
+    <h2 class="text-center md:text-xl lg:text-4xl font-bold text-heading-2 mb-4 text-white"> {title} </h2>
+    <Paragraph className='text-center text-white'>
         {description}
     </Paragraph>
 </div>

@@ -6,6 +6,7 @@ export interface Props{
 const {className} = Astro.props
 ---
 
-<p class={`md:text-lg text-heading-3 ${className}`}>
+<!-- md:text-lg -->
+<p class={`md:text-2xl text-heading-3 ${className}`}>
     <slot/>
 </p>
