@@ -75,11 +75,11 @@ function Carousel() {
       <div className="mt-10 carousel relative flex justify-center items-center">
       <div className="grid grid-cols-1 gap-3">
       {currentSlide % 2 === 0 && (
-          <div className="slide-content flex flex-col lg:flex-row items-center">
+          <div className="slide-content flex flex-col lg:flex-row items-center ">
             <img
               src={slides[currentSlide].image}
               alt={`Slide ${currentSlide + 1}`}
-              className="carousel-image w-full sm:w-[40vh]] sm:h-[40vh] "
+              className="carousel-image rounded-3xl w-full sm:w-[40vh]] sm:h-[40vh] "
             />
             <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden text-center">
               <div className="p-4">
@@ -120,7 +120,7 @@ function Carousel() {
               <img
                 src={slides[currentSlide].image}
                 alt={`Slide ${currentSlide + 1}`}
-                className="carousel-image w-full sm:w-[40vh] sm:h-[40vh]"
+                className="carousel-image rounded-3xl w-full sm:w-[40vh] sm:h-[40vh]"
               />
             </div>
           </div>
